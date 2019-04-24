@@ -156,8 +156,14 @@ iframe,
 }
 
 
+address{
+	background-color: #0000FF;
+}
 
-/* 列表 */
+
+
+/* ol  有序列表
+   ul  无序列表 */
 ol,
 ul{
 	color: #AFEEEE;
@@ -202,11 +208,6 @@ code,
 	padding: 0.7em 1em;
 	text-shadow: none;
 }
-
-
-
-
-
 
 
 
@@ -305,19 +306,18 @@ strong {
 
 
 
-/* 标签定义带有记号的文本 */
+/* 带有==记号==的文本  */
 mark {
-	background: #A142F4;
+	background: #FFFF00;
 }
 
 
 
 
-/*  */
+/*  >引用文本 */
 blockquote {
-	color: #24c1e0;
 	padding: 10px 20px;
-	background: rgba(36, 193, 224, 0.05);
+	background: rgba(36, 193, 200, 0.05);
 	border-left: 1px solid #24c1e0;
 }
 
