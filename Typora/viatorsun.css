@@ -487,12 +487,8 @@ table tr:nth-child(even) {
 
  /** ported from https://codemirror.net/theme/material.css **/
  /*
-
-      Name:       material
+      Name:       Codemirror  代码高亮插件
       Author:     Michael Kaminsky (http://github.com/mkaminsky11)
-
-      Original material color scheme by Mattia Astorino (https://github.com/equinusocio/material-theme)
-
  */
 
   .cm-s-inner.CodeMirror {
