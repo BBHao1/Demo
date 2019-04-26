@@ -190,25 +190,26 @@ code, kbd, pre, samp {
 
 
 
-/*  */
+/*  `内联代码片`  */
 tt, 
 code,
 .md-fences
 {
+	color: #DDA0DD;
 	margin: 0 0.3em;
 	padding: 0 0.3em;
-	background: #eee;
+	/*  background: #ADD8E6; */
 	font-family: mononoki, monospace;
-	text-shadow: 0 1px #fff;
+	/*  font-weight: bold; */
+	text-shadow: 2px 2px 8px #FF0000;   /* 阴影 */
 }
 
-/*  */
+
 .md-fences {
 	margin: 15px auto;
 	padding: 0.7em 1em;
 	text-shadow: none;
 }
-
 
 
 .md-fences {
@@ -622,3 +623,4 @@ table tr:nth-child(even) {
 .CodeMirror div.CodeMirror-cursor {
 	border-left: 1px solid #e4629a;
 }
+
