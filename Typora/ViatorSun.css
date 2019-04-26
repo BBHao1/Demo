@@ -70,7 +70,7 @@
 
 
 
-/*  */
+/* 主体格调 */
 html, body {
 	/* background-color: #363B40; */
 	background-color: var(--bg-color);
@@ -126,7 +126,7 @@ h4, h5, h6 {
 
 
 
-/*  */
+/* 标题输入之前格式 */
 #write h1:before,
 #write h2:before,
 #write h3:before,
@@ -162,14 +162,11 @@ address{
 
 
 
-/* ol  有序列表
-   ul  无序列表 */
+/* ol  有序列表   ul  无序列表 */
 ol,
 ul{
 	color: #AFEEEE;
 }
-
-
 
 
 
@@ -204,13 +201,11 @@ code,
 	text-shadow: 2px 2px 8px #FF0000;   /* 阴影 */
 }
 
-
 .md-fences {
 	margin: 15px auto;
 	padding: 0.7em 1em;
 	text-shadow: none;
 }
-
 
 .md-fences {
 	margin: 10px 0px;
@@ -293,11 +288,9 @@ a:visited {
 
 
 
-/* 
-b       定义粗文本
-dt      定义列表中的内容
-strong  强调文本
-*/
+/*  b     定义粗文本
+	dt      定义列表中的内容
+	strong  强调文本   */
 b,
 dt,
 strong {
@@ -315,7 +308,7 @@ mark {
 
 
 
-/*  >引用文本 */
+/*  >引用文本  */
 blockquote {
 	padding: 10px 20px;
 	background: rgba(36, 193, 200, 0.05);
@@ -332,7 +325,9 @@ blockquote {
 	color: #5F6368;
 }
 
-/** quick open **/
+
+
+/* quick open */
 .auto-suggest-container {
 	border: 0px;
 	background-color: #525C65;
@@ -468,7 +463,6 @@ th {
 	font-weight: 500;
 	background-color: #D2B48C;
 }
-
 
 table th,
 table td {
