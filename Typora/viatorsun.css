@@ -141,7 +141,6 @@ h4, h5, h6 {
 
 
 /*  */
-i,
 p,
 dd,
 ol,
@@ -261,20 +260,17 @@ a:visited {
 	background-color: rgba(229, 229, 229, 0.3);
 }
 
-
 .outline-item:hover {
 	border-color: var(--outline-border-color);
 	background-color: var(--outline-item-hover-bg-color);
 	color: var(--outline-item-hover-fg-color);
 }
 
-
 .md-inline-math g,
 .md-inline-math svg {
 	stroke: #b8bfc6 !important;
 	fill: #b8bfc6 !important;
 }
-
 
 [md-inline='inline_math'] {
 	color: #9CB2E9;
@@ -284,6 +280,7 @@ a:visited {
 {
 	background: black;
 }
+
 .md-inline-math script {
 	color: #81b1db;
 }
@@ -304,12 +301,10 @@ strong {
 
 
 
-
 /* 带有==记号==的文本  */
 mark {
 	background: #FFFF00;
 }
-
 
 
 
@@ -339,7 +334,6 @@ blockquote {
 	border: 0px;
 	background-color: #525C65;
 }
-
 
 
 /*  */
@@ -413,7 +407,6 @@ blockquote {
 
 
 
-
 #typora-sidebar-resizer {
 	border-left: 1px solid var(--window-border-color);
 }
@@ -443,7 +436,6 @@ blockquote {
 .form-inline .input-group .input-group-addon {
 	color: white;
 }
-
 
 
 #md-searchpanel {
@@ -497,7 +489,6 @@ table tr:nth-child(even) {
       Name:       CodeMirror  代码高亮插件
       Author:     Michael Kaminsky (http://github.com/mkaminsky11)
  */
-
 
 
   .cm-s-inner.CodeMirror {
