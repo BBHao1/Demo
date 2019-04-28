@@ -157,13 +157,6 @@ iframe,
 
 
 
-/*  文本缩进  */
-p {
-	text-indent:10px;
-}
-
-
-
 /*  斜体  */
 em {
 	font-family: mononoki, monospace;
@@ -277,20 +270,17 @@ a:visited {
 	background-color: rgba(229, 229, 229, 0.3);
 }
 
-
 .outline-item:hover {
 	border-color: var(--outline-border-color);
 	background-color: var(--outline-item-hover-bg-color);
 	color: var(--outline-item-hover-fg-color);
 }
 
-
 .md-inline-math g,
 .md-inline-math svg {
 	stroke: #b8bfc6 !important;
 	fill: #b8bfc6 !important;
 }
-
 
 [md-inline='inline_math'] {
 	color: #9CB2E9;
@@ -303,6 +293,8 @@ a:visited {
 .md-inline-math script {
 	color: #81b1db;
 }
+
+
 
 
 
@@ -350,15 +342,14 @@ blockquote {
 
 
 
+
+
 /* quick open */
 .auto-suggest-container {
 	border: 0px;
 	background-color: #525C65;
 }
 
-
-
-/*  */
 #typora-quick-open {
 	background-color: #525C65;
 }
@@ -426,10 +417,6 @@ blockquote {
 }
 
 
-
-
-
-
 #typora-sidebar-resizer {
 	border-left: 1px solid var(--window-border-color);
 }
@@ -459,8 +446,6 @@ blockquote {
 .form-inline .input-group .input-group-addon {
 	color: white;
 }
-
-
 
 #md-searchpanel {
 	border-bottom: 1px dashed grey;
@@ -611,14 +596,14 @@ table tr:nth-child(even) {
 	text-decoration: underline;
 	color: white !important;  }
 
+
+
+
   /**apply to code fences with plan text**/
   .md-fences {
 	background-color: #263238;
 	color: rgba(233, 237, 237, 1);
-	border: none;
-  }
+	border: none;  }
 
   .md-fences .code-tooltip {background-color: #263238; }
-  .CodeMirror div.CodeMirror-cursor {
-	border-left: 1px solid #e4629a;
-  }
+  .CodeMirror div.CodeMirror-cursor {	border-left: 1px solid #e4629a;  }
