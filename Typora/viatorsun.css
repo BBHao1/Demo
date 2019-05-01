@@ -94,8 +94,9 @@ html {
 
 /* 标题 */
 h1, h2, h3, h4, h5, h6 {
-	font-family: Helvetica, Open Sans;
+	width: auto;
 	margin: 0px;
+	font-family: Helvetica, Open Sans;
 }
 
 h1 {
@@ -144,23 +145,19 @@ h4, h5, h6 {
 }
 
 
-
 #write h1::before {
 	font-size: 34px;
 	content: "h1";
-	top: 0.7rem;
 }
 
 #write h2::before {
 	font-size: 30px;
 	content: "h2";
-	top: 0.37rem;
 }
 
 #write h3::before {
 	font-size: 24px;
 	content: "h3";
-	top: 0.15rem;
 }
 
 #write h4::before {
